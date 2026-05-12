@@ -1,0 +1,35 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey"
+            ],
+            "responses": [
+                "Hello! How can I help you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye"
+            ],
+            "responses": [
+                "Goodbye!"
+            ]
+        },
+        {
+            "tag": "ai",
+            "patterns": [
+                "what are you",
+                "who are you"
+            ],
+            "responses": [
+                "I am an experimental hybrid AI chatbot."
+            ]
+        }
+    ]
+}
